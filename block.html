@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Block</title>
+</head>
+
+<body>
+    <header>
+        <nav class="bg-[#F9F7F3]">
+            <section class="mx-auto w-full lg:w-11/12 px-2 py-6 rounded-lg">
+                <div class="flex items-center justify-between">
+                    <div class="flex justify-center items-center">
+                        <button id="home-id" class="btn bg-black text-white font-medium">Home</button>
+                    </div>
+                    <div class="flex justify-between items-center ml-50 lg:0">
+                        <img src="assets/logo.png" alt="">
+                        <h2 class="px-3 font-semibold">Donation Bangaldesh</h2>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img src="assets/coin.png" alt="">
+                        <h2 class="text-[#111111B3] px-3 font-semibold"><span id="balance"
+                                class="font-semibold">5500</span> BDT</h2>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <main class="mx-auto w-11/12 mb-4 mt-8">
+        <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border">
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+                <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page
+                    so that programs can change the document structure, style, and content. The DOM represents the
+                    document as nodes and objects; that way, programming languages can interact with the page.</p>
+            </div>
+        </div>
+        <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border mt-4">
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+                <p>The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents
+                    the structure of the document as a tree of objects, allowing you to manipulate its content and
+                    visual presentation. Each object represents a part of the document, such as an element or attribute.
+                </p>
+            </div>
+        </div>
+        <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border mt-4">
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why
+                is it useful?</div>
+            <div class="collapse-content">
+                <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a
+                    higher level in the DOM than the element on which the event originated. It allows us to attach a
+                    single event listener for elements that exist now or in the future.</p>
+            </div>
+        </div>
+        <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border mt-4">
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+                <p>If you want to change other attributes like id , href , or src , you can use the setAttribute()
+                    method. The setAttribute() method accepts two arguments: The name of the attribute to set. The value
+                    of the attribute to set</p>
+            </div>
+        </div>
+    </main>
+    <script src="./js/block.js"></script>
+</body>
+
+</html>
